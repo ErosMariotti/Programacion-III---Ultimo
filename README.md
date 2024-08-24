@@ -9,7 +9,7 @@ Este proyecto es un ejemplo de cómo crear una página web usando HTML semántic
 - Editor de texto (Visual Studio Code)
 
 ## Ejecución
-1. Clona este repositorio: `[[git clone https://github.com/usuario/mi-proyecto-html.git](https://github.com/ErosMariotti/Programaci-n-III.git)](https://github.com/ErosMariotti/T.P-1---ErosMariotti51589.git)`
+1. Clona este repositorio: `[[[git clone https://github.com/usuario/mi-proyecto-html.git](https://github.com/ErosMariotti/Programaci-n-III.git)](https://github.com/ErosMariotti/T.P-1---ErosMariotti51589.git)](https://github.com/ErosMariotti/Programacion-III---Ultimo.git)`
 2. Abre el archivo `index.html` en tu navegador.
 
 ## Autor
