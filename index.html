@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico HTML</title>
+</head>
+<body>
+
+    <!-- Cabecera del Documento -->
+     <header>
+        <h1>Eros Mariotti - Legajo: 51589</h1>
+        <p>Bienvenido a mi primera página web.</p>
+    </header>
+
+    <!-- Barra de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#tablasYformularios">Tablas y Formularios</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h1>Inicio</h1>
+        <article>
+            <h2>Introducción</h2>
+            <p>Este documento es un ejemplo de cómo estructurar una página HTML usando etiquetas semánticas.</p>
+        </article>
+        
+        
+        <article>
+            <h2>1- Estructura Básica</h2>
+            <p>A continuación, se muestran ejemplos de elementos HTML esenciales como encabezados, párrafos, y divisiones.</p>
+            
+            <!-- Ejemplo de Encabezados y Propiedades del Texto -->
+            <div>
+                <h2>2- Encabezados y Propiedades del Texto (h2)</h2>
+                <h3>Sección (H3)</h3>
+                <h4>Subsección (H4)</h4>
+                <h5>Sub-subsección (H5)</h5>
+                <h6>Detalle (H6)</h6>
+
+                <p style="font-weight: bold;">Este texto es negrita</p>
+                <p style="font-style: italic;">Este texto es cursiva</p>
+                <p style="text-decoration: underline;">Este texto está subrayado</p>
+            </div>
+
+            <!-- Ejemplo de División y Agrupación de Contenido -->
+            <div>
+                <h2>3- División y Agrupación de Contenido</h2>
+                <div style="background-color: #f2f2f2; padding: 10px;">
+                    <h3>Sección 1</h3>
+                    <p>Este es un bloque de contenido.</p>
+                    <p>Acá hay otro párrafo dentro del mismo bloque.</p>
+                </div>
+            
+                <div style="background-color: #f2f2f2; padding: 10px;">
+                    <h3>Sección 2</h3>
+                    <p>Este es un bloque de contenido.</p>
+                    <p>Acá hay otro párrafo dentro del mismo bloque.</p>
+                </div>
+            </div>
+
+            <!-- Ejemplo de Enlaces y Listas -->
+            <div>
+                <h2>4- Enlaces y Listas</h2>
+                <a href="https://www.google.com" target="_blank">Enlace a Google (Página Externa)</a>
+
+                <div style="background-color: #f2f2f2; padding: 10px;">
+                    <h3>Enlaces Internos</h3>
+                        <ul>
+                            <li> <a href="#multimedia">Ir a la Multimedia </a> </li>
+                            <li> <a href="#tablasYformularios">Ir a Tablas y Formularios </a> </li>
+                        </ul>
+                </div>
+
+                <div style="background-color: #f2f2f2; padding: 10px;">
+                    <h3>Lista Ordenada</h3>
+                    <ol>
+                        <li>Primer elemento de lista ordenada</li>
+                        <li>Segundo elemento</li>
+                    </ol>
+                </div>
+
+                <div style="background-color: #f2f2f2; padding: 10px;">
+                    <h3>Lista Desordenada</h3>
+                    <ul>
+                        <li>Primer elemento de lista desordenada</li>
+                        <li>Segundo elemento</li>
+                    </ul>
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+    <!-- Sección Multimedia -->
+    <section id="multimedia">
+        <h2>5- Galería Multimedia</h2>
+        <article>
+            <h3>Imágenes</h3>
+            <figure>
+                <img src="images.jpg" alt="Descripción de la imagen" width="300">
+                <figcaption>Descripción de la imagen</figcaption>
+            </figure>
+        </article>
+
+        <article>
+            <h3>Videos</h3>
+            <video width="320" height="240" controls>
+                <source src="media/video.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </article>
+
+        <article>
+            <h3>Audios</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </article>
+    </section>
+
+    <!-- Sección Tablas y Formularios -->
+    <section id="tablasYformularios">
+        <h2>6- Tablas y Formularios</h2>
+        <article>
+            <h3>Tablas</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Encabezado 1</th>
+                        <th>Encabezado 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                    </tr>
+                    <tr>
+                        <td>Dato 3</td>
+                        <td>Dato 4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <article>
+            <h3>Formularios</h3>
+            <form action="/submit" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>
