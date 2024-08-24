@@ -1,5 +1,5 @@
 # Proyecto HTML 
-Trabajos Practicos de Programación
+Trabajos Practicos Número 1 de Programación
 
 ## Descripción
 Este proyecto es un ejemplo de cómo crear una página web usando HTML semántico.
